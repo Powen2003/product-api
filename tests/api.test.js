@@ -7,4 +7,3 @@ const port = process.env.PORT || 3000;
 assert.ok(port, "Cổng kết nối phải hợp lệ");
 
 console.log("Tất cả các bài kiểm thử tự động đã vượt qua thành công!");
-ad.PORT;
