@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run test or check build
-        run: npm run start --if-present
+      - name: Run automated test script
+        run: npm test
         env:
           MONGO_URI: mongodb://localhost:27017/product_db
