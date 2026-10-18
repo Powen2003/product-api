@@ -15,7 +15,7 @@ const mockProduct = {
   quantity: 15,
 };
 
-assert.strictEqual(mockProduct.pid, "CHAM_PS02", "Mã sản phẩm phải khớp");
+assert.strictEqual(mockProduct.pid, "CHAM_PS03", "Mã sản phẩm phải khớp");
 assert.ok(mockProduct.price > 0, "Giá sản phẩm phải lớn hơn 0");
 console.log("[PASS] Kiểm tra cấu trúc dữ liệu Product thành công!");
 
